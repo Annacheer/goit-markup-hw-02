@@ -1,10 +1,14 @@
 :root {
   --primary-text-color: #4d5ae5;
   --headings-color: #2e2f42;
+  --text-color: #434455;
+  --background-color: #ffffff;
+  --lightmode-color: #f4f4fd;
+  --pressed-state-color: #404bbf;
 }
 
 body {
-  background: #ffffff;
+  background: var(--background-color);
   font-family: "Roboto", sans-serif;
 }
 .link {
@@ -13,8 +17,8 @@ body {
 .list {
   list-style: none;
 }
+/* ------------------Header-------------- */
 .logo {
-  color: var(--headings-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -22,7 +26,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-color {
+.logo-navy {
+  color: var(--headings-color);
+}
+.logo-iris {
   color: var(--primary-text-color);
 }
 .nav-link {
@@ -33,7 +40,7 @@ body {
   letter-spacing: 0.02em;
 }
 .contacts {
-  color: #434455;
+  color: var(--text-color);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -44,17 +51,103 @@ body {
 .contacts:focus {
   color: var(--primary-text-color);
 }
-
+/* -------------Main Studio-------------------- */
+.hero {
+  background-color: var(--headings-color);
+}
+.hero-title {
+  color: var(--background-color);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  background-color: var(--primary-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+}
+.advantages {
+}
+.adv-hidden {
+}
+.adv-title {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.adv-text {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.work-title {
+  color: var(--headings-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team {
+  background-color: var(--lightmode-color);
+}
+.work-title {
+}
+.list {
+}
+.team-name {
+}
+.team-position {
+}
+/* ----------------Main Portfolio------------- */
 .filter-btn {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: #f4f4fd;
+  background-color: var(--lightmode-color);
   font-family: "Roboto", sans-serif;
 }
 .filter-btn.ocean-btn {
-  color: #ffffff;
-  background: #404bbf;
+  color: var(--background-color);
+  background: var(--pressed-state-color);
+}
+.card-title {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.card-text {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* ------------Footer---------------- */
+.footer-slogan {
+  color: var(--lightmode-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer {
+  background-color: var(--headings-color);
+}
+.logo-cloud {
+  color: var(--lightmode-color);
 }
