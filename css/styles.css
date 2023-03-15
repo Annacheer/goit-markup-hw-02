@@ -1,0 +1,60 @@
+:root {
+  --primary-text-color: #4d5ae5;
+  --headings-color: #2e2f42;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  color: var(--headings-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-color {
+  color: var(--primary-text-color);
+}
+.nav-link {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contacts {
+  color: #434455;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--primary-text-color);
+}
+
+.filter-btn {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+}
+.filter-btn.ocean-btn {
+  color: #ffffff;
+  background: #404bbf;
+}
