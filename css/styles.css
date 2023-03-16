@@ -52,8 +52,8 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus,
-.contacts:hover,
-.contacts:focus {
+.contact:hover,
+.contact:focus {
   color: var(--pressed-state-color);
 }
 /* -------------Main Studio-------------------- */
