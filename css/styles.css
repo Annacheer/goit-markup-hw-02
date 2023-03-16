@@ -8,8 +8,9 @@
 }
 
 body {
-  background: var(--background-color);
+  background-color: var(--background-color);
   font-family: "Roboto", sans-serif;
+  color: var(--text-color);
 }
 .link {
   text-decoration: none;
@@ -40,13 +41,15 @@ body {
   letter-spacing: 0.02em;
 }
 .contacts {
-  color: var(--text-color);
+  color: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.nav-link:hover,
+.nav-link:focus,
 .contacts:hover,
 .contacts:focus {
   color: var(--primary-text-color);
@@ -71,10 +74,16 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-family: inherit;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--pressed-state-color);
 }
 .advantages {
 }
 .adv-hidden {
+  visibility: hidden;
 }
 .adv-title {
   color: var(--headings-color);
@@ -84,9 +93,7 @@ body {
   letter-spacing: 0.02em;
 }
 .adv-text {
-  color: var(--text-color);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -101,13 +108,19 @@ body {
 .team {
   background-color: var(--lightmode-color);
 }
-.work-title {
-}
-.list {
-}
 .team-name {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 /* ----------------Main Portfolio------------- */
 .filter-btn {
@@ -117,7 +130,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--lightmode-color);
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
+  cursor: pointer;
 }
 .filter-btn.ocean-btn {
   color: var(--background-color);
@@ -132,7 +146,6 @@ body {
 }
 .card-text {
   color: var(--text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -140,7 +153,6 @@ body {
 /* ------------Footer---------------- */
 .footer-slogan {
   color: var(--lightmode-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
