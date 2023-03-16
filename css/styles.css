@@ -82,8 +82,6 @@ body {
 .hero-btn:focus {
   background-color: var(--pressed-state-color);
 }
-.advantages {
-}
 .adv-hidden {
   visibility: hidden;
 }
@@ -138,9 +136,10 @@ body {
   font-family: inherit;
   cursor: pointer;
 }
-.filter-btn.ocean-btn {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--background-color);
-  background: var(--pressed-state-color);
+  background-color: var(--pressed-state-color);
 }
 .card-title {
   color: var(--headings-color);
