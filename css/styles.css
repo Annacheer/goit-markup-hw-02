@@ -20,6 +20,7 @@ body {
 }
 /* ------------------Header-------------- */
 .logo {
+  color: var(--primary-text-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -31,7 +32,6 @@ body {
   color: var(--headings-color);
 }
 .logo-iris {
-  color: var(--primary-text-color);
 }
 .nav-link {
   color: var(--headings-color);
@@ -41,8 +41,10 @@ body {
   letter-spacing: 0.02em;
 }
 .contacts {
-  color: inherit;
   font-style: normal;
+}
+.contact {
+  color: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -52,7 +54,7 @@ body {
 .nav-link:focus,
 .contacts:hover,
 .contacts:focus {
-  color: var(--primary-text-color);
+  color: var(--pressed-state-color);
 }
 /* -------------Main Studio-------------------- */
 .hero {
@@ -107,6 +109,9 @@ body {
 }
 .team {
   background-color: var(--lightmode-color);
+}
+.team-card {
+  background-color: var(--background-color);
 }
 .team-name {
   color: var(--headings-color);
